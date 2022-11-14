@@ -3,25 +3,25 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5689282815:AAF-c9dQ_Nqeshvk453e-USnpbVXb_y0tGk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5488050620:AAEkIdJfvFcIj0UUUuVdn8fukYVgecyLOzQ")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "5653408"))
+APP_ID = int(os.environ.get("APP_ID", "4266087"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "155531a88645bbccabdce85888aa8cc4")
+API_HASH = os.environ.get("API_HASH", "4db4c81fbeea31cf4348fd99d071fe0b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001172082530"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001864897559"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1414120948"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1240021713"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://enassbzd:NVjlTgR0GwK7P6OPxoEXjYC2PiCE7-kj@peanut.db.elephantsql.com/enassbzd")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://yusladue:9uTbVmgKGliy3mXIXQtKTzNFJibypnah@heffalump.db.elephantsql.com/yusladue")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001801795587"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001509652119"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
