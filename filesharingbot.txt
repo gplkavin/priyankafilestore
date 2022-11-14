@@ -1,0 +1,35 @@
+[05-Nov-22 05:20:50 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[05-Nov-22 05:21:42 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[05-Nov-22 05:21:42 - INFO] - bot - Bot stopped.
+[05-Nov-22 05:22:02 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[05-Nov-22 05:23:28 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[05-Nov-22 05:23:29 - INFO] - bot - Bot stopped.
+[05-Nov-22 05:24:24 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[10-Nov-22 02:51:26 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\Desktop\Bots\OBCFILESBOR2BOT\plugins\cbb.py", line 12, in cb_handler
+    await query.message.edit_text(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2772, in edit_text
+    return await self._client.edit_message_text(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
